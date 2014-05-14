@@ -9,8 +9,10 @@ public class Enemy : MonoBehaviour
 
 	IEnumerator Start ()
 	{
-		GameObject.Find ("Manager");
-		GameObject.Find ("Player(Clone)");
+		for (int i = 0; i < 10; i++) {
+			GameObject.Find ("Manager");
+			GameObject.Find ("Player(Clone)");
+		}
 
 		spaceship = GetComponent<Spaceship> ();
 

@@ -7,7 +7,17 @@ public class Finished_Explosion : MonoBehaviour
 		gameObject.SetActive(false);
 	}
 
-	void OnAnimationFinish ()
+	void OnEnable()
+	{
+		Invoke ("Die", 1f);
+	}
+
+	void OnDisable()
+	{
+		CancelInvoke ();
+	}
+
+	void Die ()
 	{
 		ObjectPool.instance.PoolObject(gameObject);
 	}

@@ -772,7 +772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43bb0bf70e6edc046814da73e498f259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 100006, guid: be2ae62c959bd7f429b282cc82db9151, type: 2}
+  enemy: {fileID: 0}
   manager: {fileID: 1412233680}
   rate: .100000001
 --- !u!4 &1516949934

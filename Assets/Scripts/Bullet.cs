@@ -10,8 +10,10 @@ public class Bullet : MonoBehaviour
 
 	void Start ()
 	{
-		GameObject.Find ("Manager");
-		GameObject.Find ("Player(Clone)");
+		for (int i = 0; i < 10; i++) {
+			GameObject.Find ("Manager");
+			GameObject.Find ("Player(Clone)");
+		}
 		rigidbody2D.velocity = transform.up.normalized * speed;
 
 		Destroy (gameObject, lifeTime);

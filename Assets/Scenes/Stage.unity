@@ -311,7 +311,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 631123287}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!124 &631123289
 Behaviour:
   m_ObjectHideFlags: 0
@@ -714,7 +714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 100000, guid: 146c61ae7544a43ab9dfc07a6a88e7a5, type: 2}
   manager: {fileID: 1412233680}
-  rate: .100000001
+  rate: .0500000007
 --- !u!4 &1516949934
 Transform:
   m_ObjectHideFlags: 0

@@ -42,6 +42,7 @@ MonoBehaviour:
   - {fileID: 100000, guid: c03cf76990fd5714fa2005f1b2a5d33b, type: 2}
   - {fileID: 100000, guid: d713baf7f10d9394c832a3f58617dddf, type: 2}
   - {fileID: 100006, guid: be2ae62c959bd7f429b282cc82db9151, type: 2}
+  - {fileID: 100000, guid: 6e88b35df028eec4498933a279688240, type: 2}
   amountToBuffer: 32000000f40100001e000000
   defaultBufferAmount: 50
 --- !u!1001 &100100000
